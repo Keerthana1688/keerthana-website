@@ -1,0 +1,121 @@
+
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+header {
+    background-color: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    color: #2f4f4f;
+}
+
+header p {
+    font-size: 1.3em;
+    font-style: italic;
+    color: #777;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c5b358;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #2f4f4f;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.8;
+    font-size: 1.2em;
+}
+
+/* Improved Layout for Skills and Tools Sections */
+section#skills ul,
+section#tools ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+/* Contact Section */
+section#contact p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #c5b358;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Buttons and Links */
+button, a {
+    transition: all 0.3s ease;
+}
+
+button:hover, a:hover {
+    color: #c5b358;
+}
